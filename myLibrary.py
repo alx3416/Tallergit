@@ -11,3 +11,7 @@ def getPerimeterRectangle(sideA, sideB):
 
 def gerAreaCircle(radius):
     return math.pi * (radius ** 2)
+
+
+def gerPerimeterCircle(radius):
+    return math.pi * (radius * 2)
