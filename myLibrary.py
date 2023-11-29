@@ -1,7 +1,7 @@
 import math
 
 
-def getAreaRectangle(sideA, sideB):
+def getAreaRectangle(sideB, sideA):
     return sideA * sideB
 
 
