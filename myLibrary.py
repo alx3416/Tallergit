@@ -15,3 +15,7 @@ def gerAreaCircle(radius):
 
 def gerPerimeterCircle(radius):
     return math.pi * (radius * 2)
+
+
+def gerPerimeterTriangle(side1, side2, side3):
+    return side1 + side2 +side3
