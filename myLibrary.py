@@ -1,8 +1,8 @@
 import math
 
 
-def getAreaRectangle(sideB, sideA):
-    return sideA * sideB
+def getAreaRectangle(side1, side2):
+    return side1 * side2
 
 
 def getPerimeterRectangle(sideA, sideB):
