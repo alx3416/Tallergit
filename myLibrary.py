@@ -21,10 +21,18 @@ def gerPerimeterTriangle(side1, side2, side3):
     return side1 + side2 + side3
 
 
+def getAreaPentagon(side, aphotem):
+    return (5 * side * aphotem) / 2
+  
+  
+def gerVolume(radius):
+    return math.pi * (radius ** 3)
+
+
 def getAreaTriangle(side, height):
     area = (side * height) / 2
     return area
-
+  
 def calcular_area_cilindro(radio, altura):
     area_base = 2 * math.pi * (radio ** 2)
     area_lateral = 2 * math.pi * radio * altura
