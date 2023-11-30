@@ -23,3 +23,12 @@ def gerPerimeterTriangle(side1, side2, side3):
 
 def getAreaPentagon(side, aphotem):
     return (5 * side * aphotem) / 2
+  
+  
+def gerVolume(radius):
+    return math.pi * (radius ** 3)
+
+
+def getAreaTriangle(side, height):
+    area = (side * height) / 2
+    return area
