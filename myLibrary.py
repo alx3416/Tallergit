@@ -22,4 +22,5 @@ def gerPerimeterTriangle(side1, side2, side3):
 
 
 def getAreaTriangle(side, height):
-    return (side * height) / 2
+    area = (side * height) / 2
+    return area
