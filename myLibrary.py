@@ -19,3 +19,7 @@ def gerPerimeterCircle(radius):
 
 def gerPerimeterTriangle(side1, side2, side3):
     return side1 + side2 + side3
+
+
+def getAreaPentagon(side, aphotem):
+    return (5 * side * aphotem) / 2
