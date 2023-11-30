@@ -24,3 +24,9 @@ def gerPerimeterTriangle(side1, side2, side3):
 def getAreaTriangle(side, height):
     area = (side * height) / 2
     return area
+
+def calcular_area_cilindro(radio, altura):
+    area_base = 2 * math.pi * (radio ** 2)
+    area_lateral = 2 * math.pi * radio * altura
+    area_total = area_base + area_lateral
+    return area_total
